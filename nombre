@@ -1,0 +1,17 @@
+<script> 
+var alumno = {
+    "nombre": "kenia",
+    "matricula": "19190536",
+    "materias": [{
+        "materia1": "programacion web",
+        "calif": "10"
+    },{
+        "materia2": "integradora",
+        "calif": "8"
+    }]
+};
+document.weiteln(alumno.nombre);
+document.writeln(alumno.materias[0].materia1);
+var integradora = alumno.materias[1];
+document.writeln(integradora.materia2);
+</script> 
